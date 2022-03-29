@@ -52,8 +52,40 @@ body{
    color:#656565;
 }
 
+/* ############ Carrosel ############# */
+.carrosel{
+   background-color: #434343;
+   color: #ffffff;
+  font-family: 'quicksand',sans-serif;
+}
 
+.carrosel .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 80%;
+   margin: 0 auto;
+}
 
+.conteudo__carrosel{
+   width: 25%;
+}
+
+.titulo__carrosel{
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 1.3em;
+   margin-bottom: 10%;
+}
+
+.txt__carrosel{
+   line-height: 1.3em;
+   font-weight: 500;
+}
+
+.img__carrosel{
+   height: 400px;
+}
 
 
 /* ############################## */
@@ -216,7 +248,7 @@ body{
 }
 
 .redes__sociais__rodape{
-   margin-top: 5%;
+   margin-top: 8%;
    font-size: 16px;
    width: 100%;
 }
