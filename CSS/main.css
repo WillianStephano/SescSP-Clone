@@ -206,15 +206,37 @@ body{
    padding: 2% 0;
 }
 
+.logo__rodape{
+   width: 35%;
+}
+
 .txt__logo__rodape{
    font-size: 12px;
    line-height: 1.6em;
 }
 
 .redes__sociais__rodape{
-   margin-top: 20%;
+   margin-top: 5%;
    font-size: 16px;
+   width: 100%;
 }
+
+.titulo__redes__sociais__rodape{
+   font-size: 18px;
+   line-height: 2.5em;
+}
+
+.lista__redes__sociais__rodape{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.icon__redes__sociais__rodape:hover{
+   cursor: pointer;
+}
+
+
 
 .lista__menu__rodape li a{
    text-decoration: none;
@@ -224,7 +246,6 @@ body{
 .lista__menu__rodape li{
    padding: 2.6% 0;
 }
-
 
 .opcao__rodape{
    line-height: 1.0em;
